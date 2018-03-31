@@ -12,7 +12,7 @@ RUN git clone --depth 1 --single-branch https://github.com/apereo/cas-gradle-ove
     && mkdir -p /etc/cas /opt/cas \
     && mv ./cas/build/libs/cas.war /opt/cas \
     && rm -rf /opt/cas-overlay \
-    && rm -rf $HOME/.gradle/caches/;
+    && rm -rf $HOME/.gradle;
 
 COPY thekeystore /etc/cas/
 

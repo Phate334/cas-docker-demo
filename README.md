@@ -14,7 +14,7 @@ https://github.com/apereo/cas-webapp-docker/blob/master/Dockerfile)
 
 ```
 > docker build -t cas/docker .
-> docker run -d cas/docker
+> docker run -d -P cas/docker
 > docker ps
 ```
 
